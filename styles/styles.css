@@ -1,0 +1,24 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ body {
+   height: 1000vw;
+   background-image: linear-gradient(0, lightgreen 0%, beige 100%);
+ }
+
+ div {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 0;
+   height: 1vh;
+   background-color: rgb(2, 153, 83);
+   transition: .2s linear;
+ }
+
+ .active {
+   box-shadow: 0 0 10px 10px yellowgreen;
+ }
